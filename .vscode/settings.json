@@ -13,4 +13,8 @@
   "C_Cpp_Runner.enableWarnings": true,
   "C_Cpp_Runner.warningsAsError": false,
   "C_Cpp.intelliSenseEngineFallback": "Enabled"
+    "terminal.integrated.shell.windows": "C:\\Windows\\Sysnative\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/k C:\\cmd\\vendor\\init.bat"
+    ]
 }
