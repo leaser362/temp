@@ -17,7 +17,13 @@ void NhapMang(int n,int arr[]){
     }
 }
 
-
+void NhapK(int *k,int n){
+    *k=-1;
+    while(*k<0||*k>=n){
+        printf("Nhap K:");
+        scanf("%d",k);
+    }
+}
 
 int main(){
 int n,m,k;
